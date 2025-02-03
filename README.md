@@ -1,4 +1,4 @@
-#**Named Entity Recognition and Summarization Project**
+**Named Entity Recognition and Summarization Project**
 
 ##**Project Overview**
 
