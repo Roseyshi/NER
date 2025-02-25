@@ -1,6 +1,6 @@
 spacy
 streamlit
-plotly
+plotly.express
 pandas
 numpy
 gunicorn
