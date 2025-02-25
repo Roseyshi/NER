@@ -3,3 +3,4 @@ streamlit
 plotly.express
 pandas
 numpy
+en-core-web-sm
