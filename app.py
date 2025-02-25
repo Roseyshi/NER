@@ -5,12 +5,14 @@ import plotly.express as px
 
 import spacy
 import os
+import subprocess
 
 # Ensure the model is available
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
-    os.system("python -m spacy download en_core_web_sm")
+    print("Downloading en_core_web_sm model...")
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
     nlp = spacy.load("en_core_web_sm")
 
 
