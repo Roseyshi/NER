@@ -2,7 +2,6 @@ import streamlit as st
 import spacy
 import pandas as pd
 import plotly.express as px
-
 import spacy
 import os
 import subprocess
