@@ -1,6 +1,5 @@
 spacy
 streamlit
-plotly.express
+plotly
 pandas
 numpy
-en-core-web-sm

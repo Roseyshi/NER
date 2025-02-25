@@ -3,8 +3,19 @@ import spacy
 import pandas as pd
 import plotly.express as px
 
+import spacy
+import os
+
+# Ensure the model is available
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    os.system("python -m spacy download en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
+
 # Load NER Model
-nlp = spacy.load("en_core_web_sm")
+#nlp = spacy.load("en_core_web_sm")
 
 # Function to process text
 def process_text(input_text):
